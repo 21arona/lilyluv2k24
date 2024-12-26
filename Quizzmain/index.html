@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon-quizz.png" type="image/x-icon" />
+    <script src="app.js" defer></script>
+  </head>
+
+  <body>
+    <header id="titulo">
+      <h1>Quiz de programmation !</h1>
+    </header>
+    <section>
+      <div id="Pergunta-1" class="box">
+        <div class="titulo-pergunta">
+          <h3>1-Pour quel usage PHP a-t-il été développé ?</h3>
+        </div>
+        <div class="buttons">
+          <button class="botao botaoA">
+            <div class="letra">A</div>
+            Back-end
+            <!-- correcte -->
+          </button>
+          <button class="botao botaoB">
+            <div class="letra">B</div>
+            Front-end
+          </button>
+          <button class="botao botaoC">
+            <div class="letra">C</div>
+            Système d'exploitation
+          </button>
+          <button class="botao botaoD">
+            <div class="letra">D</div>
+            Base de données
+          </button>
+        </div>
+      </div>
+      <div id="Pergunta-2" class="box hide">
+        <div class="titulo-pergunta">
+          <h3>2-Une façon de déclarer une variable en JavaScript :</h3>
+        </div>
+        <div class="buttons">
+          <button class="botao botaoA">
+            <div class="letra">A</div>
+            $var
+          </button>
+          <button class="botao botaoB">
+            <div class="letra">B</div>
+            var
+            <!-- correcte -->
+          </button>
+          <button class="botao botaoC">
+            <div class="letra">C</div>
+            .var
+          </button>
+          <button class="botao botaoD">
+            <div class="letra">D</div>
+            #let
+          </button>
+        </div>
+      </div>
+      <div id="Pergunta-3" class="box hide">
+        <div class="titulo-pergunta">
+          <h3>3-Quel est le sélecteur d'id en CSS ?</h3>
+        </div>
+        <div class="buttons">
+          <button class="botao botaoA">
+            <div class="letra">A</div>
+            #
+            <!-- correcte -->
+          </button>
+          <button class="botao botaoB">
+            <div class="letra">B</div>
+            .
+          </button>
+          <button class="botao botaoC">
+            <div class="letra">C</div>
+            @
+          </button>
+          <button class="botao botaoD">
+            <div class="letra">D</div>
+            /
+          </button>
+        </div>
+      </div>
+      <div id="Pergunta-4" class="box hide">
+        <div class="titulo-pergunta">
+          <h3>4-En Java, que retourne compareTo() ?</h3>
+        </div>
+        <div class="buttons">
+          <button class="botao botaoA">
+            <div class="letra">A</div>
+            True
+          </button>
+          <button class="botao botaoB">
+            <div class="letra">B</div>
+            false
+          </button>
+          <button class="botao botaoC">
+            <div class="letra">C</div>
+            Une valeur Int
+            <!-- correcte -->
+          </button>
+          <button class="botao botaoD">
+            <div class="letra">D</div>
+            None
+          </button>
+        </div>
+      </div>
+      <div id="Pergunta-5" class="box hide">
+        <div class="titulo-pergunta">
+          <h3>
+            5-<br />const string1 = 'Café';<br />
+            const string2 = 'Expresso';<br />
+            <br />
+            const resultat = [ ...string1, ...string2 ];<br />
+            <br />
+            console.log(resultat.join('&nbsp;&nbsp; '));
+          </h3>
+        </div>
+        <div class="buttons">
+          <button class="botao botaoA">
+            <div class="letra">A</div>
+            Café Expresso
+          </button>
+          <button class="botao botaoB">
+            <div class="letra">B</div>
+            C,a,f,é,E,x,p,r,e,s,s,o
+          </button>
+          <button class="botao botaoC">
+            <div class="letra">C</div>
+            C a f é E x p r e s s o
+            <!-- correcte -->
+          </button>
+          <button class="botao botaoD">
+            <div class="letra">D</div>
+            Erreur
+          </button>
+        </div>
+      </div>
+      <div id="Resultado-box" class="box2 hide">
+        <h2>Félicitations !</h2>
+        <div id="result"></div>
+        <p id="paragrafo"></p>
+        <button id="refaz">REFAIRE LE QUIZ !</button>
+      </div>
+    </section>
+  </body>
+</html>
